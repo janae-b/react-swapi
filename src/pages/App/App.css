@@ -1,0 +1,21 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.app-title {
+  text-align: center;
+  background: black;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.App {
+  text-align: center;
+}
+

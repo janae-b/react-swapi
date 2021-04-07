@@ -1,0 +1,28 @@
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.starship-info {
+  max-width: 400px;
+  background: rgb(26, 80, 66);
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.starship-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.starship-info a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 0;
+}

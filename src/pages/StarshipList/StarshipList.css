@@ -1,0 +1,29 @@
+.starship-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 20px auto 0 auto;
+}
+
+.starship-card {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background: rgb(26, 80, 66);
+  color: white;
+  padding: 40px;
+}
+
+.starship-card a {
+  color: white;
+  text-decoration: none;
+}
+
+.starship-card a:hover {
+  text-decoration: underline;
+}
