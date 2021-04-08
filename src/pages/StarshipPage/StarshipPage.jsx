@@ -3,7 +3,7 @@ import PilotList from '../../components/PilotList/PilotList'
 import './StarshipPage.css';
 
 function StarshipPage({location}) {
-	const starship = location.state;
+	const { starship } = location.state;
 
 	return (
     <div id="wrapper">

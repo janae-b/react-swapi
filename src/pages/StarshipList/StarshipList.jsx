@@ -26,7 +26,7 @@ class StarshipPage extends Component {
               <Link
                 to={{
                   pathname: '/starship',
-                  state: starship
+                  state: {starship}
                 }}
                 key={starship.name}
               >
